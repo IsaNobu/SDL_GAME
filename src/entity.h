@@ -8,4 +8,4 @@ typedef struct
     void (*handle_event)(SDL_Event *);
     void (*update)(void);
     void (*render)(SDL_Renderer *);
-} Enitity;
+} Entity;

@@ -1,4 +1,5 @@
 #define SDL_MAIN_USE_CALLBACKS
+#include <SDL3/SDL_main.h>
 #include "entity.h"
 #include "player.h"
 
@@ -29,7 +30,7 @@
 SDL_Window *window;
 SDL_Renderer *renderer;
 
-Enitity entities[MAX_ENTITIES];
+Entity entities[MAX_ENTITIES];
 int entity_count = 0;
 
 void SDL_AppQuit(void *appstate, SDL_AppResult result)
